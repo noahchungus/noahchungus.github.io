@@ -69,6 +69,7 @@ nav a:hover { color:#a9cbed !important; }
 .project-card:hover .clearcommute-ui { transform:translateY(-6px) scale(1.015); box-shadow:0 20px 32px #071b3833; }
 .clearcommute-ui img { display:block; width:100%; height:auto; }
 .clearcommute-link { border-color:var(--blue); color:var(--blue); }
+.project-links { display:flex; flex-wrap:wrap; gap:6px 22px; }
 .clearcall-ui { position:relative; width:100%; overflow:hidden; background:var(--navy); color:#fff; box-shadow:0 12px 24px #071b381f; font-family:var(--sans); transition:transform .25s ease, box-shadow .25s ease; }
 .project-card:hover .clearcall-ui { transform:translateY(-6px) scale(1.015); box-shadow:0 20px 32px #071b3833; }
 .clearcall-ui img { display:block; width:100%; height:auto; }
