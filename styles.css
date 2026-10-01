@@ -65,11 +65,6 @@ nav a:hover { color:#a9cbed !important; }
 .project-card:hover .clearprep-ui { transform:translateY(-6px) scale(1.015); box-shadow:0 20px 32px #071b3833; }
 .clearprep-ui img { display:block; width:100%; height:auto; }
 .clearprep-link { border-color:var(--blue); color:var(--blue); }
-.clearcommute-ui { position:relative; width:100%; min-width:0; overflow:hidden; background:#0b2447; box-shadow:0 12px 24px #071b3812; transition:transform .25s ease, box-shadow .25s ease; }
-.project-card:hover .clearcommute-ui { transform:translateY(-6px) scale(1.015); box-shadow:0 20px 32px #071b3833; }
-.clearcommute-ui img { display:block; width:100%; height:auto; }
-.clearcommute-link { border-color:var(--blue); color:var(--blue); }
-.project-links { display:flex; flex-wrap:wrap; gap:6px 22px; }
 .clearcall-ui { position:relative; width:100%; overflow:hidden; background:var(--navy); color:#fff; box-shadow:0 12px 24px #071b381f; font-family:var(--sans); transition:transform .25s ease, box-shadow .25s ease; }
 .project-card:hover .clearcall-ui { transform:translateY(-6px) scale(1.015); box-shadow:0 20px 32px #071b3833; }
 .clearcall-ui img { display:block; width:100%; height:auto; }
@@ -93,6 +88,11 @@ nav a:hover { color:#a9cbed !important; }
 .clearcall-card h3 { color:var(--navy); }
 .clearcall-card p:not(.project-type) { color:#193f68; opacity:.88; }
 .clearcall-card .clearcall-link { border-color:#1f639f; color:#195b97; }
+.project-links { display:flex; flex-wrap:wrap; gap:18px; }
+.clearcommute-ui { position:relative; width:100%; min-width:0; overflow:hidden; background:#f7f7f8; color:var(--navy); box-shadow:0 12px 24px #071b3812; transition:transform .25s ease, box-shadow .25s ease; }
+.clearcommute-ui img { display:block; width:100%; height:auto; }
+.project-card:hover .clearcommute-ui { transform:translateY(-6px) scale(1.015); box-shadow:0 20px 32px #071b3833; }
+.clearcommute-link { border-color:var(--blue); color:var(--blue); }
 @media (max-width:720px) { .project-featured .project-body { max-width:100%; } }
 .experience { max-width:none !important; padding-left:max(42px,calc((100vw - 1116px)/2)) !important; padding-right:max(42px,calc((100vw - 1116px)/2)) !important; background:var(--mist) !important; color:var(--navy) !important; }
 .experience-intro { grid-template-columns:1fr !important; }
