@@ -93,6 +93,10 @@ nav a:hover { color:#a9cbed !important; }
 .clearcommute-ui img { display:block; width:100%; height:auto; }
 .project-card:hover .clearcommute-ui { transform:translateY(-6px) scale(1.015); box-shadow:0 20px 32px #071b3833; }
 .clearcommute-link { border-color:var(--blue); color:var(--blue); }
+.learnerslane-ui { position:relative; width:100%; min-width:0; overflow:hidden; background:#f7f7f8; color:var(--navy); box-shadow:0 12px 24px #071b3812; transition:transform .25s ease, box-shadow .25s ease; }
+.learnerslane-ui img { display:block; width:100%; height:auto; }
+.project-card:hover .learnerslane-ui { transform:translateY(-6px) scale(1.015); box-shadow:0 20px 32px #071b3833; }
+.learnerslane-link { border-color:var(--blue); color:var(--blue); }
 @media (max-width:720px) { .project-featured .project-body { max-width:100%; } }
 .experience { max-width:none !important; padding-left:max(42px,calc((100vw - 1116px)/2)) !important; padding-right:max(42px,calc((100vw - 1116px)/2)) !important; background:var(--mist) !important; color:var(--navy) !important; }
 .experience-intro { grid-template-columns:1fr !important; }
